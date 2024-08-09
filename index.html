@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Collaboration Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">ProjectCollab</div>
+        <nav class="menu">
+            <a href="#" class="menu-item active">Dashboard</a>
+            <a href="#" class="menu-item">Projects</a>
+            <a href="#" class="menu-item">Tasks</a>
+            <a href="#" class="menu-item">Reports</a>
+            <a href="#" class="menu-item">Settings</a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Top Navigation -->
+        <header class="top-nav">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="user-profile">
+                <img src="https://via.placeholder.com/40" alt="User">
+                <span>John Doe</span>
+            </div>
+        </header>
+
+        <!-- Dashboard Overview -->
+        <section class="dashboard-overview">
+            <div class="overview-card">
+                <h3>Project A</h3>
+                <p>Progress: 70%</p>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="overview-card">
+                <h3>Project B</h3>
+                <p>Progress: 45%</p>
+                <div class="progress-bar"><div class="progress" style="width: 45%;"></div></div>
+            </div>
+            <div class="overview-card">
+                <h3>Project C</h3>
+                <p>Progress: 90%</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+        </section>
+
+        <!-- Task List -->
+        <section class="task-list">
+            <h3>Tasks</h3>
+            <div class="task">
+                <input type="checkbox" id="task-1">
+                <label for="task-1">Complete UI Design</label>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task-2">
+                <label for="task-2">Finalize Prototyping</label>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task-3">
+                <label for="task-3">Conduct User Testing</label>
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
